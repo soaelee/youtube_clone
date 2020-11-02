@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    height: 4rem;
+    padding: .8em 1em;
+    background: black;
+    color: white;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: .5em;
+}
+
+.input {
+    background: white;
+    /* 너비가 가능한 만큼 */
+    flex-basis: 100%;
+    font-size: 1.1rem;
+    outline: none;
+    padding: .3em;
+}
+
+.button{
+    background-color: darkgray;
+    border-radius: 4px;
+    border: none;
+    margin: 1em;
+    margin-left: 0;
+}
+
+.buttonImg{
+    padding: .5em .2em;
+    width: 25px;
+}
